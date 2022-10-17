@@ -2,6 +2,8 @@
 
 Welcome to my Meteor + Svelte app! I followed the suggested tutorial and based my code off of it, which is located at https://svelte-tutorial.meteor.com/simple-todos/
 
+The comments are found in a variety of files, including all the files in the `imports`, `server`, and `client` folders.
+
 ## How to Use / Instructions
 
 I have deployed my Meteor app online, at https://runlintodoapp.meteorapp.com/
@@ -17,7 +19,7 @@ To log in, you can use one of two accounts. The login credentials are as follows
 
 Click the login button to log in, and you can see the task interface. Add inputs into the text box and click the add button to add it to the list. You can check them off as complete by clicking the check box on the left, and you can also delete the tasks by clicking the red button on the right side of each todo.
 
-The additional functionality beyond the basic todo features in this implementation are (1) a show/hide completed tasks feature, which you can use by clicking the button, and (2) the user login that supports the multiple different users. This multiple users allows for different people to access different todo lists on the same website, without seeing each others. In my case, I only hard code in 2 separate users, but you could potentially extend the Meteor + Svelte framework to add more users.
+The additional functionality beyond the basic todo features in this implementation are (1) a show/hide completed tasks feature, which you can use by clicking the button, (2) the counter of pending / incomplete tasks in the top left corner after you login, and (3) the user login that supports the multiple different users. This multiple users allows for different people to access different todo lists on the same website, without seeing each others. In my case, I only hard code in 2 separate users, but you could potentially extend the Meteor + Svelte framework to add more users.
 
 ## Reflection
 
